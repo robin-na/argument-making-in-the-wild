@@ -50,5 +50,5 @@ augment_network.get_augmented_cluster(cluster_assignment_path='clusters_tc.csv',
                                       , docs=your_preprocessed_document)
 ```
 
-This will create ```[filename]_filtered.pickle``` which is a list of list where each list is a tokenized document filtered by original words from ``` `cluster_tc.csv` ``` and candiate words. It will also create ```[filename]_cluster_augmented.csv``` which is the augmented version of cluster assignment. In other words, this function will take a ```cluster_assignment/cluster_tc.csv``` file and return something like ```cluster_assignment/cluster_aug.csv```.
+This will create ```[filename]_filtered.pickle``` which is a list of list where each list is a tokenized document filtered by original words from ``` cluster_tc.csv ``` and candiate words. It will also create ```[filename]_cluster_augmented.csv``` which is the augmented version of cluster assignment. In other words, this function will take a ```cluster_assignment/cluster_tc.csv``` file and return something like ```cluster_assignment/cluster_aug.csv```.
 
