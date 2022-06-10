@@ -46,7 +46,7 @@ You can now augment the cluster assignment with the same methodology described i
 In Python, make sure that your directory is set to the ```augment_network``` folder and run
 ```
 import augment_network
-augment_network.get_augmented_cluster(cluster_assignment_path='clusters_tc.csv', candidate_words='candidate_words.txt'
+augment_network.get_augmented_cluster(cluster_assignment_path='cluster_tc.csv', candidate_words='candidate_words.txt'
                                       , docs=your_preprocessed_document)
 ```
 
